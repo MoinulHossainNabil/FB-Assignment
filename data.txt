@@ -1,0 +1,3 @@
+
+90fee1b1-33d6-466a-ae52-69b5b3565a20
+{'id': 1316, 'tsync_id': '90fee1b1-33d6-466a-ae52-69b5b3565a20', 'code': 'FO-01316', 'name': 'File_YEPALUWJ_14122020_153243.', 'path': 'static_media/uploads/2/2020/12/14/File_YEPALUWJ_14122020_153243.', 'extension': None, 'description': None, 'file': None, 'date_created': 1607938363784, 'last_updated': 1608369072178, 'success': True, 'message': 'Request processed successfully.'}
