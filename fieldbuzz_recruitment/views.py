@@ -30,11 +30,10 @@ def upload_file(file, file_token_id, token):
     default_storage.save(f'{file_path}/{file}', ContentFile(file.read()))
     files = {"files": open(os.path.join(file_path, str(file_name)), 'rb')}
     cv_upload_response = requests.put(f'{CV_UPLOAD_API}{file_token_id}/', files=files,
-                                              headers={'Authorization': f'TOKEN {token}'})
+                                      headers={'Authorization': f'TOKEN {token}'})
     print(f'cv upload response is : {cv_upload_response.json()}')
-    messages.success(request, "Successful Submission")
     return redirect('core:home')
-    
+
 
 def index(request):
     if request.method == "POST":
